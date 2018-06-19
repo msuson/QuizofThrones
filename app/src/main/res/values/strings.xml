@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Quiz of Thrones</string>
+    <string name="question1">Who is the brother of the The Hound?</string>
+    <string name="answer1A">Gregory Clubane</string>
+    <string name="answer1B">Gregor Cremane</string>
+    <string name="answer1C">Greg Cane</string>
+    <string name="answer1D">Gregor Clegane</string>
+    <string name="question2">Which of the following are the names of Daenerys Targaryen\'s dragons?</string>
+    <string name="answer2A">Visereon</string>
+    <string name="answer2B">Rhaegal</string>
+    <string name="answer2C">Rhaegar</string>
+    <string name="answer2D">Drogon</string>
+    <string name="question3">Jaime Lannister is often referred to as...</string>
+    <string name="answer3">kingslayer</string>
+    <string name="hint3">Queen Cuddler?</string>
+    <string name="question4">To what prominent family of The Seven Kingdoms does the sigil below belong to?</string>
+    <string name="answer4A">The Lannisters</string>
+    <string name="answer4B">The Martells</string>
+    <string name="answer4C">The Tyrells</string>
+    <string name="answer4D">The Baratheons</string>
+    <string name="question5">Jon Snow was named \"Lord Commander\" of...</string>
+    <string name="answer5">the night\'s watch</string>
+    <string name="hint5">The Day Lookers?</string>
+    <string name="question6">White Walkers can be killed using weapons made of which of the following materials?</string>
+    <string name="answer6A">Dragon Glass</string>
+    <string name="answer6B">Elvish Steel</string>
+    <string name="answer6C">Mithril</string>
+    <string name="answer6D">Valyrian Steel</string>
+    <string name="message1">/6, 100%! You\'re GoT trivia master!</string>
+    <string name="message2">/6, well done!</string>
+    <string name="message3">/6, try again</string>
+</resources>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizofthrones.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:adjustViewBounds="true"
+            android:src="@drawable/thrones_logo" />
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/question1"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_group_1">
+            <RadioButton
+                style="@style/AnswerStyle"
+                android:text="@string/answer1A"/>
+            <RadioButton
+                style="@style/AnswerStyle"
+                android:text="@string/answer1B"/>
+            <RadioButton
+                style="@style/AnswerStyle"
+                android:text="@string/answer1C"/>
+            <RadioButton
+                style="@style/AnswerStyle"
+                android:text="@string/answer1D"/>
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/question2"/>
+        <CheckBox
+            style="@style/AnswerStyle"
+            android:text="@string/answer2A"
+            android:id="@+id/checkbox2A"/>
+        <CheckBox
+            style="@style/AnswerStyle"
+            android:text="@string/answer2B"
+            android:id="@+id/checkbox2B"/>
+        <CheckBox
+            style="@style/AnswerStyle"
+            android:text="@string/answer2C"
+            android:id="@+id/checkbox2C"/>
+        <CheckBox
+            style="@style/AnswerStyle"
+            android:text="@string/answer2D"
+            android:id="@+id/checkbox2D"/>
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/question3"/>
+        <EditText
+            style="@style/AnswerStyle"
+            android:inputType="textCapWords"
+            android:hint="@string/hint3"
+            android:id="@+id/answer3"/>
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/question4"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/martell_sigil"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_group_2">
+            <RadioButton
+                style="@style/AnswerStyle"
+                android:text="@string/answer4A"/>
+            <RadioButton
+                style="@style/AnswerStyle"
+                android:text="@string/answer4B"/>
+            <RadioButton
+                style="@style/AnswerStyle"
+                android:text="@string/answer4C"/>
+            <RadioButton
+                style="@style/AnswerStyle"
+                android:text="@string/answer4D"/>
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/question5"/>
+        <EditText
+            style="@style/AnswerStyle"
+            android:inputType="textCapWords"
+            android:hint="@string/hint5"
+            android:id="@+id/answer5"/>
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/question6"/>
+        <CheckBox
+            style="@style/AnswerStyle"
+            android:text="@string/answer6A"
+            android:id="@+id/checkbox6A"/>
+        <CheckBox
+            style="@style/AnswerStyle"
+            android:text="@string/answer6B"
+            android:id="@+id/checkbox6B"/>
+        <CheckBox
+            style="@style/AnswerStyle"
+            android:text="@string/answer6C"
+            android:id="@+id/checkbox6C"/>
+        <CheckBox
+            style="@style/AnswerStyle"
+            android:text="@string/answer6D"
+            android:id="@+id/checkbox6D"/>
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="submit"
+            android:onClick="submitAnswers"/>
+
+    </LinearLayout>
+
+</ScrollView>
